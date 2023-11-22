@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+{% block title %}Detail{% endblock %}
+
+{% block content %}
+<h1>Post 상세 화면</h1>
+<form action="" method="POST">
+</form>
+<hr>
+{% include 'mixin/posts/post_card.html' with detail=True%}
+{% endblock %}
+
